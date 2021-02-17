@@ -2,6 +2,7 @@ package mcm.edu.ph.act2_groupname.method1;
 
 import androidx.appcompat.app.AppCompatActivity;
 
+import android.media.MediaPlayer;
 import android.os.Bundle;
 import android.view.View;
 import android.widget.Button;
@@ -18,10 +19,15 @@ public class MainDisplay extends AppCompatActivity implements View.OnClickListen
     String conditionsMain = "The MC enrolled himself in an expensive school to study and met Kazuya and his friends. MC first introduced himself to \n\n\n\n\n Characters:\n MC(You)\n Mizuhara Chizuru\nRuka Sarashina \nSumi Sakurasawa \nMami Nanami \nKazuya Kinoshita";
     String txtdialog;
 
+    MediaPlayer mysong;
+
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_maindisplay);
+
+        mysong = MediaPlayer.create(MainDisplay.this,R.raw.rentagfop);
+        mysong.start();
 
         btn1 = findViewById(R.id.btn1);
         btn2 = findViewById(R.id.btn2);
@@ -336,5 +342,12 @@ public class MainDisplay extends AppCompatActivity implements View.OnClickListen
         }
         textDisplay.setText(txtdialog);
     }
+    @Override
+    protected void onPause() {
+        super.onPause();
+        mysong.release();
+        finish();
+    }
 
 }
+

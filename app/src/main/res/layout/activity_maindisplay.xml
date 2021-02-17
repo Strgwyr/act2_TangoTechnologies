@@ -6,85 +6,131 @@
     android:layout_height="match_parent"
     tools:context=".method1.MainDisplay">
 
-    <ImageView
-        android:id="@+id/imageView"
-        android:layout_width="619dp"
-        android:layout_height="957dp"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:srcCompat="@drawable/act_2_backup" />
 
     <Button
         android:id="@+id/btn1"
-        android:layout_width="124dp"
+        android:layout_width="87dp"
         android:layout_height="45dp"
+        android:layout_marginTop="136dp"
+        android:backgroundTint="#e3745b"
         android:fontFamily="@font/space"
         android:text="Decision 1"
-        android:textSize="12sp"
-        app:layout_constraintBottom_toTopOf="@+id/btn2"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.498"
+        android:textSize="8sp"
+        app:layout_constraintEnd_toStartOf="@+id/btn2"
+        app:layout_constraintHorizontal_bias="0.5"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/txtDisplay" />
 
     <TextView
         android:id="@+id/txtDisplay"
-        android:layout_width="403dp"
-        android:layout_height="364dp"
-        android:fontFamily="@font/carter_one"
+        android:layout_width="375dp"
+        android:layout_height="349dp"
+        android:background="#e3e3e3"
+        android:elevation="10dp"
+        android:fontFamily="@font/annie_use_your_telescope"
+        android:padding="10dp"
         android:shadowColor="#00FFFFFF"
         android:text="TextView"
         android:textAlignment="center"
         android:textColor="#000000"
         android:textColorHint="#00FFFFFF"
-        android:textSize="12sp"
+        android:textSize="14sp"
+        android:textStyle="italic"
         android:visibility="visible"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.6"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.004" />
+        app:layout_constraintVertical_bias="0.219" />
 
-    <Button
-        android:id="@+id/btn2"
-        android:layout_width="124dp"
-        android:layout_height="45dp"
-        android:fontFamily="@font/space"
-        android:text="Decision 2"
-        android:textSize="12sp"
-        app:layout_constraintBottom_toTopOf="@+id/btn3"
+    <ImageView
+        android:id="@+id/imageView2"
+        android:layout_width="182dp"
+        android:layout_height="183dp"
         app:layout_constraintEnd_toEndOf="@+id/btn1"
-        app:layout_constraintHorizontal_bias="0.0"
         app:layout_constraintStart_toStartOf="@+id/btn1"
-        app:layout_constraintTop_toBottomOf="@+id/btn1" />
+        app:layout_constraintTop_toBottomOf="@+id/txtDisplay"
+        app:srcCompat="@drawable/mizuhara" />
 
-    <Button
-        android:id="@+id/btn3"
-        android:layout_width="124dp"
-        android:layout_height="45dp"
-        android:fontFamily="@font/space"
-        android:text="Decision 3"
-        android:textSize="12sp"
-        app:layout_constraintBottom_toTopOf="@+id/btn4"
+    <ImageView
+        android:id="@+id/imageView3"
+        android:layout_width="142dp"
+        android:layout_height="191dp"
+        android:layout_marginTop="8dp"
+        app:layout_constraintBottom_toTopOf="@+id/btn2"
         app:layout_constraintEnd_toEndOf="@+id/btn2"
-        app:layout_constraintHorizontal_bias="0.0"
         app:layout_constraintStart_toStartOf="@+id/btn2"
-        app:layout_constraintTop_toBottomOf="@+id/btn2" />
+        app:layout_constraintTop_toBottomOf="@+id/txtDisplay"
+        app:layout_constraintVertical_bias="0.207"
+        app:srcCompat="@drawable/ruka" />
+
+    <ImageView
+        android:id="@+id/imageView5"
+        android:layout_width="178dp"
+        android:layout_height="178dp"
+        android:layout_marginTop="4dp"
+        app:layout_constraintEnd_toEndOf="@+id/btn4"
+        app:layout_constraintHorizontal_bias="0.527"
+        app:layout_constraintStart_toStartOf="@+id/btn4"
+        app:layout_constraintTop_toBottomOf="@+id/txtDisplay"
+        app:srcCompat="@drawable/mami" />
+
+    <ImageView
+        android:id="@+id/imageView4"
+        android:layout_width="173dp"
+        android:layout_height="186dp"
+        app:layout_constraintEnd_toEndOf="@+id/btn3"
+        app:layout_constraintHorizontal_bias="0.488"
+        app:layout_constraintStart_toStartOf="@+id/btn3"
+        app:layout_constraintTop_toBottomOf="@+id/txtDisplay"
+        app:srcCompat="@drawable/sumi" />
 
     <Button
         android:id="@+id/btn4"
-        android:layout_width="124dp"
+        android:layout_width="87dp"
         android:layout_height="45dp"
+        android:backgroundTint="#fcf265"
         android:fontFamily="@font/space"
         android:text="Decision 4"
-        android:textSize="12sp"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="@+id/btn3"
-        app:layout_constraintHorizontal_bias="0.0"
-        app:layout_constraintStart_toStartOf="@+id/btn3"
-        app:layout_constraintTop_toBottomOf="@+id/btn3" />
+        android:textSize="8sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toEndOf="@+id/btn3"
+        app:layout_constraintTop_toTopOf="@+id/btn3" />
+
+    <Button
+        android:id="@+id/btn3"
+        android:layout_width="87dp"
+        android:layout_height="45dp"
+        android:backgroundTint="#ee90f5"
+        android:fontFamily="@font/space"
+        android:text="Decision 3"
+        android:textSize="8sp"
+        app:layout_constraintEnd_toStartOf="@+id/btn4"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toEndOf="@+id/btn2"
+        app:layout_constraintTop_toTopOf="@+id/btn2" />
+
+    <Button
+        android:id="@+id/btn2"
+        android:layout_width="87dp"
+        android:layout_height="45dp"
+        android:backgroundTint="#90bff5"
+        android:fontFamily="@font/space"
+        android:text="Decision 2"
+        android:textSize="8sp"
+        app:layout_constraintEnd_toStartOf="@+id/btn3"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toEndOf="@+id/btn1"
+        app:layout_constraintTop_toTopOf="@+id/btn1" />
+
+    <ImageView
+        android:id="@+id/imageView9"
+        android:layout_width="268dp"
+        android:layout_height="124dp"
+        app:layout_constraintBottom_toTopOf="@+id/txtDisplay"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:srcCompat="@drawable/title" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>
