@@ -229,108 +229,108 @@ public class MainDisplay extends AppCompatActivity implements View.OnClickListen
         else if(con==3){
             txtdialog = "MC introduced himself to Sumi. The MC, Kazuya, and his friends would hang out with each other talking about girls, models and how pretty their crush are. Suddenly Kazuya walks over with a girl";
             if(con1== 1){
-                txtdialog = "Dialog for condition 3 branch 1 should appear here";
+                txtdialog = "Kazuya intruced to his friends his rental girlfriend named Mizuhara, but they didn't know that because kazuya kept it as a secret. He knows that they would make fun of him when they found out she was only a rental girlfriend.";
                 if(con1a == 1){
-                    txtdialog = "Dialog for condition 3 branch 1-1 should appear here";
+                    txtdialog = "The MC rented Sumi again for another day and when they were on their date on the mall they saw Mizuhara with another boy, when the other day comes the MC told Kazuya when they met at school that he saw Mizuhara with another boy which gives Kazuya no choice but to confess that she is only a rental girlfriend and to cheer him up he also told him that he has a rental girlfriend to.";
                 }
                 else if(con1a == 2){
-                    txtdialog = "Dialog for condition 3 branch 1-2 should appear here";
+                    txtdialog = "MC went again to the website where he met Sumi for the first time, while scrolling he found out that Mizuhara was just a rental girlfriend, but he kept it as a secret because he knows that Kazuya would be embarrassed to tell the truth.";
                 }
                 else if(con1a == 3){
-                    txtdialog = "Dialog for condition 3 branch 1-3 should appear here";
+                    txtdialog = "While the MC and sumi went on a date, he told Sumi about Kazuya's girlfriend and as he show her a picture of her Sumi knew her as one of many other rental girlfriends at her agencies, the MC was shocked that Mizuhara was only a rental girlfriend.";
                 }
                 else if (con1a == 4){
-                    txtdialog = "Dialog for condition 3 branch 1-4 should appear here";
+                    txtdialog = "Kazuya was about to rate Mizuhara for the date that they had, as he saw at the suggested section of the website he saw that the MC's girlfriend, was only a rental girlfriend. When the MC and Kazuya met at school, Kazuya quickly told the MC that he knew about Sumi while they were alone, as embarrassed the MC is Kazuya confessed that Mizuhara was only a rental girlfriend too and after that they laughed together at each other.";
                 }
             }
             else if(con1 == 2) {
-                txtdialog = "Dialog for condition 3 branch 2 should appear here";
+                txtdialog = "Kazuya intruced to his friends his rental girlfriend named Ruka, but they didn't know that because kazuya kept it as a secret. He knows that they would make fun of him when they found out she was only a rental girlfriend.";
                 if (con1a == 1) {
-                    txtdialog = "Dialog for condition 3 branch 2-1 should appear here";
+                    txtdialog = "The MC rented Sumi again for another day and when they were on their date on the mall they saw Ruka with another boy, when the other day comes the MC told Kazuya when they met at school that he saw Ruka with another boy which gives Kazuya no choice but to confess that she is only a rental girlfriend and to cheer him up he also told him that he has a rental girlfriend to.";
                 } else if (con1a == 2) {
-                    txtdialog = "Dialog for condition 3 branch 2-2 should appear here";
+                    txtdialog = "MC went again to the website where he met Sumi for the first time, while scrolling he found out that Ruka was just a rental girlfriend, but he kept it as a secret because he knows that Kazuya would be embarrassed to tell the truth.";
                 } else if (con1a == 3) {
-                    txtdialog = "Dialog for condition 3 branch 2-3 should appear here";
+                    txtdialog = "While the MC and sumi went on a date, he told Sumi about Kazuya's girlfriend and as he show her a picture of her Sumi knew her as one of many other rental girlfriends at her agencies, the MC was shocked that Ruka was only a rental girlfriend.";
                 } else if (con1a == 4){
-                    txtdialog = "Dialog for condition 3 branch 2-4 should appear here";
+                    txtdialog = "Kazuya was about to rate Ruka for the date that they had, as he saw at the suggested section of the website he saw that the MC's girlfriend, was only a rental girlfriend. When the MC and Kazuya met at school, Kazuya quickly told the MC that he knew about Sumi while they were alone, as embarrassed the MC is Kazuya confessed that Ruka was only a rental girlfriend too and after that they laughed together at each other.";
                 }
             }
             else if(con1 == 3){
-                txtdialog = "Dialog for condition 3 branch 2 should appear here";
+                txtdialog = "Kazuya intruced to his friends his rental girlfriend named Mami, but they didn't know that because kazuya kept it as a secret. He knows that they would make fun of him when they found out she was only a rental girlfriend.";
                 if (con1a == 1) {
-                    txtdialog = "Dialog for condition 3 branch 3-1 should appear here";
+                    txtdialog = "The MC rented Sumi again for another day and when they were on their date on the mall they saw Mami with another boy, when the other day comes the MC told Kazuya when they met at school that he saw Mami with another boy which gives Kazuya no choice but to confess that she is only a rental girlfriend and to cheer him up he also told him that he has a rental girlfriend to.";
                 } else if (con1a == 2) {
-                    txtdialog = "Dialog for condition 3 branch 3-2 should appear here";
+                    txtdialog = "MC went again to the website where he met Sumi for the first time, while scrolling he found out that Mami was just a rental girlfriend, but he kept it as a secret because he knows that Kazuya would be embarrassed to tell the truth.";
                 } else if (con1a == 3) {
-                    txtdialog = "Dialog for condition 3 branch 3-3 should appear here";
-                } else if (con1a == 3){
-                    txtdialog = "Dialog for condition 3 branch 3-4 should appear here";
+                    txtdialog = "While the MC and sumi went on a date, he told Sumi about Kazuya's girlfriend and as he show her a picture of her Sumi knew her as one of many other rental girlfriends at her agencies, the MC was shocked that Mami was only a rental girlfriend.";
+                } else if (con1a == 4){
+                    txtdialog = "Kazuya was about to rate Mami for the date that they had, as he saw at the suggested section of the website he saw that the MC's girlfriend, was only a rental girlfriend. When the MC and Kazuya met at school, Kazuya quickly told the MC that he knew about Sumi while they were alone, as embarrassed the MC is Kazuya confessed that Mami was only a rental girlfriend too and after that they laughed together at each other.";
                 }
             }
             else if (con1 == 4){
-                txtdialog = "Dialog for condition 3 branch 4 should appear here";
+                txtdialog = "Kazuya introduced to his friends his rental girlfriend named Sumi, but he didn't new that the MC already knew Sumi as a rental girlfriend, which makes the atmosphere awkward between the MC and Sumi";
                 if (con1a == 1) {
-                    txtdialog = "Dialog for condition 3 branch 4-1 should appear here";
+                    txtdialog = "Sumi ran away out of the embarrassment and awkwardness of the moment, which makes the MC confess that he knows that Sumi was just a rental and because he also rented her as her girlfriend that one time.";
                 } else if (con1a == 2) {
-                    txtdialog = "Dialog for condition 3 branch 4-2 should appear here";
+                    txtdialog = "MC and Sumi stayed casual together while Kazuya was with them and as Kazuya went home and Sumi and MC were left they talked about what is happening, little did they know that Kazuya left his phone at Sumi's bag so he went back and saw them holding hands which breaks Kazuya's heart.";
                 } else if (con1a == 3) {
-                    txtdialog = "Dialog for condition 3 branch 4-3 should appear here";
+                    txtdialog = "The MC never rented Sumi ever again in respect of Kazuya, he knows how it would crush Kazuya when founds out that MC knows and he rented Sumi first than him.";
                 } else if (con1a == 4){
-                    txtdialog = "Dialog for condition 3 branch 4-4 should appear here";
+                    txtdialog = "Sumi disappeared and the MC and Kazuya never saw her again. Her profile was deactivated at the website which makes both of them worried so the MC confessed to Kazuya that he knows but they set aside that problem so that they could help each other fild Sumi.";
                 }
             }
         }
         else if(con == 4){
             txtdialog = "MC introduced himself to Mami. The MC, Kazuya, and his friends would hang out with each other talking about girls, models and how pretty their crush are. Suddenly Kazuya walks over with a girl";
             if(con1== 1){
-                txtdialog = "Dialog for condition 4 branch 1 should appear here";
+                txtdialog = "Kazuya introduced to them his girlfriend Ruka. As the other day came, MC and Mami were on a double date with Kazuya and Ruka, and while Kazuya was on a restroom she told the MC and Mami that she knows about Mami's job as a rental girlfriend which makes a problem for the MC and Mami that the other didn't know.";
                 if(con1a == 1){
-                    txtdialog = "Dialog for condition 4 branch 1-1 should appear here";
+                    txtdialog = "MC told Mami that he will confess that him and Mami were just a fake couple and Mami was just a rental girlfriend because he knows that Kazuya would understand when it comes from him and because Ruka was also just a rental girlfriend and they could laugh all about it afterwards.";
                 }
                 else if(con1a == 2){
-                    txtdialog = "Dialog for condition 4 branch 1-2 should appear here";
+                    txtdialog = "Ruka gave them a condition so that she wouldn't tell Kazuya about them, and that condition is that the MC and Ruka would be in a serious relationship, because for the momment that Ruka saw the MC she was madly in love with him and you could also call it blackmail on what she is doing.";
                 }
                 else if(con1a == 3){
-                    txtdialog = "Dialog for condition 4 branch 1-3 should appear here";
+                    txtdialog = "Ruka told Kazuya after that day that Mami was also only a rental girlfriend that the MC was renting, and out of guiltiness he went to the MC's house to confess that Ruka was also only a rental girlfriend and the MC told Kazuya that he knows but they were still friends afterwards.";
                 }
                 else if (con1a == 4){
-                    txtdialog = "Dialog for condition 4 branch 1-4 should appear here";
+                    txtdialog = "Ruka told the MC and Mami that she would keep it as a secret because she felt sorry that she was blackmailing them both.";
                 }
             }
             else if(con1 == 2) {
-                txtdialog = "Dialog for condition 4 branch 2 should appear here";
+                txtdialog = "Kazuya introduced to them his girlfriend Sumi. As the other day came, MC and Mami were on a double date with Kazuya and Sumi, and while Kazuya was on a restroom she told the MC and Mami that she knows about Mami's job as a rental girlfriend which makes a problem for the MC and Mami that the other didn't know.";
                 if (con1a == 1) {
-                    txtdialog = "Dialog for condition 4 branch 2-1 should appear here";
+                    txtdialog = "MC told Mami that he will confess that him and Mami were just a fake couple and Mami was just a rental girlfriend because he knows that Kazuya would understand when it comes from him and because Sumi was also just a rental girlfriend and they could laugh all about it afterwards.";
                 } else if (con1a == 2) {
-                    txtdialog = "Dialog for condition 4 branch 2-2 should appear here";
+                    txtdialog = "Sumi gave them a condition so that she wouldn't tell Kazuya about them, and that condition is that the MC and Sumi would be in a serious relationship, because for the momment that Sumi saw the MC she was madly in love with him and you could also call it blackmail on what she is doing.";
                 } else if (con1a == 3) {
-                    txtdialog = "Dialog for condition 4 branch 2-3 should appear here";
+                    txtdialog = "Sumi told Kazuya after that day that Mami was also only a rental girlfriend that the MC was renting, and out of guiltiness he went to the MC's house to confess that Mami was also only a rental girlfriend and the MC told Kazuya that he knows but they were still friends afterwards.";
                 } else if (con1a == 4){
-                    txtdialog = "Dialog for condition 4 branch 2-4 should appear here";
+                    txtdialog = "Sumi told the MC and Mami that she would keep it as a secret because she felt sorry that she was blackmailing them both.";
                 }
             }
             else if(con1 == 3){
-                txtdialog = "Dialog for condition 4 branch 2 should appear here";
+                txtdialog = "Kazuya introduced to them his girlfriend Mizuhara. As the other day came, MC and Mami were on a double date with Kazuya and Mizuhara, and while Kazuya was on a restroom she told the MC and Mami that she knows about Mami's job as a rental girlfriend which makes a problem for the MC and Mami that the other didn't know.";
                 if (con1a == 1) {
-                    txtdialog = "Dialog for condition 4 branch 3-1 should appear here";
+                    txtdialog = "MC told Mami that he will confess that him and Mami were just a fake couple and Mami was just a rental girlfriend because he knows that Kazuya would understand when it comes from him and because Mizuhara was also just a rental girlfriend and they could laugh all about it afterwards.";
                 } else if (con1a == 2) {
-                    txtdialog = "Dialog for condition 4 branch 3-2 should appear here";
+                    txtdialog = "Mizuhara gave them a condition so that she wouldn't tell Kazuya about them, and that condition is that the MC and Mizuhara would be in a serious relationship, because for the momment that Mizuhara saw the MC she was madly in love with him and you could also call it blackmail on what she is doing.";
                 } else if (con1a == 3) {
-                    txtdialog = "Dialog for condition 4 branch 3-3 should appear here";
+                    txtdialog = "Mizuhara told Kazuya after that day that Mami was also only a rental girlfriend that the MC was renting, and out of guiltiness he went to the MC's house to confess that Mizuhara was also only a rental girlfriend and the MC told Kazuya that he knows but they were still friends afterwards.";
                 } else if (con1a == 4){
-                    txtdialog = "Dialog for condition 4 branch 3-4 should appear here";
+                    txtdialog = "Mizuhara told the MC and Mami that she would keep it as a secret because she felt sorry that she was blackmailing them both.";
                 }
             }
             else if (con1 == 4){
-                txtdialog = "Dialog for condition 4 branch 4 should appear here";
+                txtdialog = "Kazuya introducec to them his girlfriend Mami, but she didn't know that the MC and Kazuya were friends, that is why Mami breaks up with Kazuya.";
                 if (con1a == 1) {
-                    txtdialog = "Dialog for condition 4 branch 4-1 should appear here";
+                    txtdialog = "Mami told the MC that she broken up with Kazuya because she can't handle the awkwardness when the three of them are together. But one day while the MC and Mami were on a date they were both saw by Kazuya which makes him furious because that's maybe the reason why Mami broken up with him, so he confronted the MC while on their date, and there he learned that the MC was the first one to rent her as her girlfriend.";
                 } else if (con1a == 2) {
-                    txtdialog = "Dialog for condition 4 branch 4-2 should appear here";
+                    txtdialog = "Mami told the MC that she broken up with Kazuya because she can't handle the awkwardness when the three of them are together, but MC disagrees with Mami's decision because he cares more about his friend than a girlfriend who was just a rental and rejected his best friend.";
                 } else if (con1a == 3) {
-                    txtdialog = "Dialog for condition 4 branch 4-3 should appear here";
+                    txtdialog = "Mami kept to herself that she broken up with Kazuya, while the MC didn't know about that it was weird when Mami and MC was talking about meeting up with his friends Mami would always disagrees, but he learned about the news through Kazuya that is mourning for weeks about the break up and that is why the MC also broke up with Mami because she hurt his best friend.";
                 } else if (con1a == 4){
-                    txtdialog = "Dialog for condition 4 branch 4-4 should appear here";
+                    txtdialog = "Mami told the MC that she broken up with Kazuya and he must also not see him anymore as Mami requested. Even though it was evil for Mami to tell him that he couldn't be friends with Kazuya anymore the MC ignores the right thing to do and followed his heart becuase he had fallen in love with Mami even though she was just a rental girlfriend.";
                 }
             }
         }
